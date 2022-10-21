@@ -24,3 +24,143 @@ a{
     max-width: 1280px;
     margin:0 auto ;
 }
+
+
+
+
+header {
+    max-width: 1280px;
+    margin: 30px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 122px;
+    height: 28px;
+    margin-top: auto 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-left: 32px;
+}
+
+#call {
+    border-radius: 31px;
+    background-color: rgba(245, 138, 7, 0.1);
+    padding: 18px 30px 17px 29px;
+    color: #F58A07;
+}
+
+
+.buttom {
+    display: inline-block;
+    color: #fff;
+    background-color: #F58A07;
+    border-radius: 31px;
+    padding: 18px 32px 19px;
+}
+
+
+
+
+
+footer {
+    background-color: #063255;
+    height: 463px;
+    position: relative;
+    color: #fff;
+}
+
+.foot-sec {
+    width: 400px;
+    margin: 0 20px;
+}
+
+.footer-left h1 {
+    font-size: 36px;
+    line-height: 44px;
+}
+
+.footer-top {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 80px;
+}
+
+.footer-logo i {
+    margin: 10px;
+}
+
+.connect-company {
+    display: flex;
+    padding-left: 20px;
+}
+
+.connect-company .connect {
+    margin-left: 100px;
+}
+
+.company p,
+.connect p {
+    margin-top: 0;
+    font-size: 18px;
+    line-height: 27px;
+}
+
+.company ul li,
+.connect-company ul li {
+    font-weight: 500;
+    line-height: 24px;
+    padding: 8px;
+}
+
+.subscribe {
+    margin-left: 70px;
+}
+
+.subscribe .join {
+    font-size: 18px;
+    line-height: 27px;
+    margin-top: 0;
+}
+
+.subscribe .footer-buttom {
+    background-color: #fff;
+    padding: 18px 188px 17px 32px;
+    border-radius: 31px;
+    color: #9c9c9c;
+    border-style: none;
+}
+
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 85px;
+}
+
+.footer-bottom span {
+    margin: auto 16px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.footer-bottom p {
+    margin: 0;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.footer-shape-left {
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    padding: 0;
+}
+
+.footer-shape-right {
+    position: absolute;
+    right: 0;
+    top: 38px;
+}

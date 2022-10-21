@@ -1,0 +1,74 @@
+.test-engineer h1{
+    font-size: 64px;
+    line-height: 72px;
+    color: #1d3444;
+}
+.job-discription{
+    display: flex;
+    justify-content: space-between;
+}
+.job-discription h4{
+    font-weight: 500;
+    font-size: 24px;
+    color: #0d1317;
+}
+.job-discription p{
+    font-weight: 500;
+    font-size: 18px;
+    color: #5b5b5b;
+}
+.job-detail{
+    background-color: rgba(193, 228, 255, 0.3);
+    border-radius: 20px;
+    margin-bottom:128px ;
+    margin-top: 60px;
+}
+.detail-container{
+    padding: 64px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.detail h2{
+    margin-bottom: 40px;
+    font-size: 24px;
+    font-weight: 500;
+    color: #0d1317;
+}
+.detail .detail-color{
+    color: #f58a07;
+}
+.detail-text p{
+    font-weight: 500;
+    line-height: 28px ;
+    color: #5b5b5b;
+    width: 842px;
+}
+.apply-now h3{
+    font-size: 48px;
+    color: #0d1317;
+    line-height: 56px;
+}
+.input-name{
+    background-color: rgba(210, 218, 237, 0.17);
+    border-radius: 27px;
+    padding: 17px 450px 18px 32px;
+    margin-bottom: 24px;
+    border-style: none;
+}
+.name-mar{
+    margin-right: 24px;
+}
+.apply-now .name, .contact{
+    display: flex;
+}
+.input-opinion{
+    background-color: rgba(210, 218, 237, 0.17);
+    border-radius: 27px;
+    padding: 29px 900px 167px 32px;
+    margin-bottom: 32px;
+    border-style: none; 
+}
+.submit{
+    margin-bottom: 128px;
+}
