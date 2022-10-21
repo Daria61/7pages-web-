@@ -1,0 +1,66 @@
+.contact-container{
+    display: flex;
+    margin-top: 120px;
+}
+.contact-container p{
+    font-size: 18px;
+    font-weight: 500;
+    color: #5b5b5b;
+}
+.touch-with-us{
+    margin-right: 55px;
+    width: 600px;
+}
+.touch-with-us h1{
+    font-size: 48px;
+    line-height: 64px;
+    color: #1d3444;
+    margin-top: 0;
+}
+.touch-with-us p{
+    margin-bottom: 60px;
+}
+.touch-us-input{
+    background-color: rgba(210, 218, 237, 0.17);
+    border-radius: 27px;
+    padding: 17px 440px 18px 32px;
+    margin-bottom: 16px;
+    border-style: none;
+    width: 600px;
+}
+.touch-us-input-msg{
+    background-color: rgba(210, 218, 237, 0.17);
+    border-radius: 27px;
+    padding: 32px 440px 109px 32px;
+    border-style: none;
+    width: 600px;
+    margin-bottom: 30px;
+}
+
+.loc-cont-text{
+    display: flex;
+}
+.loc-cont-text h3{
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 10px;
+}
+.loc-text{
+    width: 270px;
+    margin-right: 60px;
+}
+.cont-text{
+    margin-bottom: 100px;
+}
+.map img{
+    height: 355px;
+    width: 620px;
+    object-fit: cover;
+}
+.buttom{
+    margin-bottom: 128px;
+}
+.buttom p{
+    margin: 0;
+}
+

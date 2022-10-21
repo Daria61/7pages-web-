@@ -6,6 +6,9 @@
     height: 703px;
     display: flex;
 }
+.container{
+    width: 1280px;
+}
 h1{
     font-size: 64px;
     line-height: 72px;
@@ -19,7 +22,11 @@ h1{
     width: 50%;
     position: absolute;
     bottom: 0;
-    right: 0;
+    right: -20px;
+}
+.header-image img{
+    position: absolute;
+    bottom: 0;
 }
 .header-text{
     width: 50%;
@@ -29,15 +36,10 @@ h1{
     justify-content: left;
     align-items:baseline ;
 }
-.service-buttom{
-    background-color: #F58A07;
-    border-radius: 27px;
-    padding: 18px 32px 19px;
-    margin-right: 40px;
-    color: #fff
-}
+
 .all-service-buttom{
     color: #1D3444;
+    margin-left:40px ;
 }
 
 .worked-tit{
@@ -53,10 +55,12 @@ h1{
 .logos img{
     margin-right: 45px;
 }
+/** help section**/
 .help-section{
     display: block;
     margin: 0 auto;
 }
+
 .help-section h2{
     font-size: 48px;
     line-height: 56px;
@@ -67,6 +71,13 @@ h1{
     font-weight: 500;
     font-size: 18px;
     width: 735px;
+}
+.help-p{
+    width: 735px;
+    font-weight: 500;
+    font-size: 18px;
+    color: #5B5B5B;
+    margin-bottom: 60px;
 }
 .detail_info{
     display: flex;
@@ -93,28 +104,38 @@ h1{
     color: #F58A07;
     line-height: 17px;
 }
+/** feature section**/
 .feaures-sction{
     background-color:  #EDF7FF;
 }
+
 .sec-info{
     display: flex;
     justify-content: space-between;
-    align-items:baseline;
-    padding-top: 100px;
 }
 .sec-info h1{
     font-size: 36px;
     line-height: 44px;
     color: #0D1317;
     width: 50%;
+    margin-top:0 ;
 }
 .sec-info p{
     width: 50%;
     font-weight: 500;
     font-size: 18px;
     color: #1D3444;
-    margin-left: 20px;
-    margin-top: 0;
+    margin:0;
+}
+.sec-info h2{
+    color: #F58A07;
+    font-weight: 700;
+    line-height: 50px;
+}
+.sec-info h3{
+    font-size: 24px;
+    line-height: 25px;
+    color: #0D1317;
 }
 .sec-card-info{
     display: flex;
@@ -141,6 +162,7 @@ h1{
     font-weight: 500;
     line-height: 28px;
 }
+/** about section**/
 .about-section{
     margin-top: 80px;
     margin-bottom: 80px;
@@ -149,43 +171,29 @@ h1{
     display: flex;
     justify-content: space-around;
 }
-.about-section .about-text{
+.about-text{
     width: 50%;
     margin-right: 30px;
+    height: 549px;
 }
-.about-section .about-text h1{
+.about-text h1{
     font-size: 48px;
     line-height: 56px;
 }
-.about-section .about-text p{
+.about-text p{
     font-weight: 500;
     font-size: 18px;
     color: #5B5B5B;
-}
-.sec-info{
-    display: flex;
 }
 .sec-info .about-feature1,.about-feature2{
     width: 50%;
     text-align: left;
 }
-.sec-info h2{
-    color: #F58A07;
-    font-weight: 700;
-    line-height: 50px;
-}
-.sec-info h3{
-    font-size: 24px;
-    line-height: 25px;
-    color: #0D1317;
-}
-.sec-info p{
-    line-height: 28px;
-    font-weight: 500;
-}
-.about-section .about-image img{
+.about-image img{
     border-radius: 20px;
 }
+
+/** service section**/ 
 .service-section{
     margin-bottom: 120px;
 }
@@ -252,7 +260,7 @@ h1{
     line-height: 17px;
     margin-top: 50px;
 }
-
+/** CTA section**/
 .CTA-section{
     display: flex;
     height: 518px;
@@ -284,6 +292,7 @@ h1{
     border-radius: 31px;
     display: inline-block;
 }
+/*Video scetion*/
 .video-section{
     margin-bottom:128px ;
 }
@@ -333,7 +342,7 @@ h1{
     left:40px;
     bottom: 40px;
 }
-
+/* latest section*/
 .latest-section{
     background-color: #DCEAF5;
     padding-top: 90px;
