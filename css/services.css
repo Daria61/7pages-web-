@@ -1,0 +1,303 @@
+header{
+    max-width: 1280px;
+    margin: 30px auto;
+    display: flex;
+    justify-content: space-between;
+}
+.logo {
+    width: 122px;
+    height: 28px;
+    margin: auto 0;
+}
+nav ul li{
+    display: inline-block;
+    margin-left: 32px;
+}
+#call{
+    border-radius: 31px;
+    background-color:  rgba(245, 138, 7, 0.1);
+    padding: 18px 30px 17px 29px;
+    color: #F58A07;
+}
+.head-sec{
+    display: flex;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+.header-text{
+    margin-right: 40px;
+}
+.header-text h1{
+    font-size: 64px;
+    line-height: 72px;
+    height: 216px;
+    margin-bottom: 20px;
+}
+.header-text p{
+    font-weight: 500;
+    font-size: 18px;
+    height: 59px;
+    color: #5b5b5b;
+    margin-bottom: 32px;
+}
+.buttom{
+    display: inline-block;
+    color: #fff;
+    background-color: #F58A07;
+    border-radius: 31px;
+    padding: 18px 32px 19px ;
+}
+.feature-sec{
+    height: 3262px;
+    margin-bottom: 160px;
+}
+.feature{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 128px;
+}
+.feature-img{
+    width: 50%;
+    position: relative;
+}
+.feature-img .orange{
+    position: absolute;
+    mix-blend-mode: multiply;
+}
+.feature-img .ora1{
+    left: -48px;
+    top: 128px;
+}
+.feature-img .ora2{
+    right: -48px;
+    top: 272px;
+}
+.feature-img .ora3{
+    left: -48px;
+    top: 217px;
+}
+.feature-img .ora4{
+    left: -48px;
+    top: 342px;
+}
+.feature-sec h1{
+    font-size: 48px;
+    line-height: 56px;
+    color: #0d1317;
+}
+.feature-sec p{
+    font-weight: 500;
+    font-size: 18px;
+    color: #5b5b5b;
+}
+.feature-part2{
+    margin-left:77px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.feature-part1{
+    margin-right:77px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.feature-sec .feature ul li{
+    list-style-type:square;
+    margin-left:25px ;
+    font-weight: 500;
+    line-height: 28px;
+    color: #5B5B5B;
+}
+
+.video-section{
+    margin-bottom:128px ;
+}
+.video-con{
+    display: flex;
+    height: 501px;
+}
+.video-sec-tit{
+    margin-right: 110px;
+}
+.video-sec-tit h2{
+    font-size: 48px;
+    line-height: 56px;
+    color: #0D1317;
+}
+.video-sec-tit p{
+    font-weight: 500;
+    font-size: 18px;
+    color: #5B5B5B;
+}
+.person{
+    display: flex;
+}
+.person img{
+    width: 80px;
+    height: 80px;
+    margin-right: 24px;
+}
+.person .person-name{
+    color: #063255;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 41px;
+    margin: 0;
+}
+.person .person-major{
+    color: #F58A07;
+    font-size: 18px;
+    font-weight: 500;
+    margin: 0;
+}
+.per-video-left{
+    position: relative;
+}
+.per-video-left .play-icon{
+    position: absolute;
+    left:40px;
+    bottom: 40px;
+}
+
+.latest-section{
+    background-color: #DCEAF5;
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+.blog-items{
+    display: flex;
+    justify-content: space-between;
+    font-weight: 500;
+    padding-bottom: 100px;
+}
+.latest-section .latest-tit{
+    font-size: 48px;
+    line-height: 56px;
+    color: #0D1317;
+}
+.latest-section .blog-item{
+    border-radius: 20px;
+    background-color: #fff;
+    width: 400px;
+}
+.blog-item img{
+    border-radius:20px 20px 0 0 ;
+}
+.blog-item-text{
+    margin:  0 32px 32px;
+}
+.blog-item .info-tit{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: #0D1317;
+}
+.blog-item .info-text{
+    font-weight: 500;
+    line-height: 28px;
+    color: #5B5B5B;
+}
+.blog-item .info-buttom{
+    color: #F58A07;
+    font-weight: 500;
+    line-height: 17px;
+}
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    background-color: #063255;
+    height: 463px;
+    position: relative;
+    color: #fff;
+}
+.foot-sec{
+    width: 400px;
+    margin: 0 20px;
+}
+.footer-left h1{
+    font-size: 36px;
+    line-height: 44px;
+}
+
+.footer-top{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 80px;
+}
+.connect-company{
+    display: flex;
+    padding-left: 20px;
+}
+.connect-company .connect{
+    margin-left: 100px;
+}
+.company p, .connect p {
+    margin-top: 0;
+    font-size: 18px;
+    line-height: 27px;
+}
+.company  ul li, .connect-company ul li{
+    font-weight: 500;
+    line-height: 24px;
+    padding: 8px;
+}
+.subscribe{
+    margin-left: 70px;
+}
+.subscribe .join{
+    font-size: 18px;
+    line-height: 27px;
+    margin-top: 0;
+}
+.subscribe .footer-buttom{
+    background-color: #fff;
+    padding: 18px 188px 17px 32px;
+    border-radius: 31px;
+    color: #9c9c9c;
+}
+.footer-bottom{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 85px;
+}
+.footer-bottom span{
+    margin: auto 16px;
+    font-weight: 500;
+    line-height: 24px;
+}
+.footer-bottom p{
+    margin: 0;
+    font-weight: 500;
+    line-height: 24px;
+}
+.footer-shape-left{
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    padding: 0;
+}
+.footer-shape-right{
+    position: absolute;
+    right: 0;
+    top: 38px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
