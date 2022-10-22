@@ -114,5 +114,7 @@
     font-weight: 400;
     font-size: 18px;
     line-height: 19px;
-    
+}
+.career-link:hover{
+    color: #0D1317;
 }

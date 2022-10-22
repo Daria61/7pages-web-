@@ -41,6 +41,9 @@ h1{
     color: #1D3444;
     margin-left:40px ;
 }
+.all-service-buttom:hover{
+    color: #5B5B5B;
+}
 
 .worked-tit{
     font-weight: 400;
@@ -310,6 +313,9 @@ h1{
     padding: 18px 32px 19px 32px;
     border-radius: 31px;
     display: inline-block;
+}
+.CTA-buttom:hover{
+    color: #0D1317;
 }
 /*Video scetion*/
 .video-section{

@@ -61,6 +61,21 @@ nav ul li {
     border-radius: 31px;
     padding: 18px 32px 19px;
 }
+.buttom:hover{
+    color: #063255;
+}
+
+.nav ul li a:hover{
+    color: #9c9c9c;
+}
+.has-arrow::after{
+    content: '⟶';
+    transition: 0.2s all;
+}
+.has-arrow:hover::after{
+    margin-left: 10px;
+}
+
 
 
 
@@ -114,6 +129,9 @@ footer {
     font-weight: 500;
     line-height: 24px;
     padding: 8px;
+}
+.company ul li a:hover{
+    color: #9c9c9c;
 }
 
 .subscribe {
