@@ -75,8 +75,8 @@
     margin-bottom: auto;
 }
 .feature-sec .feature ul li{
-    list-style-type:square;
-    margin-left:25px ;
+    list-style-type:initial;
+    list-style-position: inside;
     font-weight: 500;
     line-height: 28px;
     color: #5B5B5B;
@@ -104,6 +104,7 @@
 }
 .person{
     display: flex;
+    margin-top: 40px;
 }
 .person img{
     width: 80px;

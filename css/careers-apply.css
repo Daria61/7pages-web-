@@ -2,10 +2,12 @@
     font-size: 64px;
     line-height: 72px;
     color: #1d3444;
+    margin-top: 100px;
 }
 .job-discription{
     display: flex;
     justify-content: space-between;
+
 }
 .job-discription h4{
     font-weight: 500;
@@ -16,6 +18,10 @@
     font-weight: 500;
     font-size: 18px;
     color: #5b5b5b;
+    width: 640px;
+}
+.salary{
+    margin-left: 280px;
 }
 .job-detail{
     background-color: rgba(193, 228, 255, 0.3);
@@ -55,6 +61,7 @@
     padding: 17px 450px 18px 32px;
     margin-bottom: 24px;
     border-style: none;
+    width: 628px;
 }
 .name-mar{
     margin-right: 24px;
@@ -68,6 +75,7 @@
     padding: 29px 900px 167px 32px;
     margin-bottom: 32px;
     border-style: none; 
+    width: 1280px;
 }
 .submit{
     margin-bottom: 128px;
