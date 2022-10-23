@@ -75,6 +75,13 @@ nav ul li {
 .has-arrow:hover::after{
     margin-left: 10px;
 }
+.pic-color-transition img{
+    filter: grayscale(50%);
+    transition: 0.3s all;
+}
+.pic-color-transition:hover img{
+    filter: grayscale(0);
+}
 
 
 
