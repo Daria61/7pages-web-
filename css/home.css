@@ -187,8 +187,18 @@ h1{
     width: 50%;
     text-align: left;
 }
+.about-image{
+    position: relative;
+}
 .about-image img{
     border-radius: 20px;
+}
+.ab-image-orange img{
+    position: absolute;
+    left: 0;
+    top: 0;
+    mix-blend-mode: multiply;
+
 }
 .about-sec-info{
     display: flex;
@@ -391,6 +401,7 @@ h1{
 }
 .blog-item img{
     border-radius:20px 20px 0 0 ;
+    object-fit: cover;
 }
 .blog-item-text{
     margin:  0 32px 32px;

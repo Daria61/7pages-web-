@@ -52,6 +52,10 @@ nav ul li {
     padding: 18px 30px 17px 29px;
     color: #F58A07;
 }
+#call:hover{
+    background-color: #F58A07;
+    color: #063255;
+}
 
 
 .buttom {
@@ -93,6 +97,7 @@ footer {
     height: 463px;
     position: relative;
     color: #fff;
+    overflow: hidden;
 }
 
 .foot-sec {

@@ -34,9 +34,10 @@
     padding: 32px 440px 109px 32px;
     border-style: none;
     width: 600px;
+    height: 160px;
     margin-bottom: 30px;
+    font-family: inherit;
 }
-
 .loc-cont-text{
     display: flex;
 }
@@ -52,7 +53,7 @@
 .cont-text{
     margin-bottom: 100px;
 }
-.map img{
+.map iframe{
     height: 355px;
     width: 620px;
     object-fit: cover;
