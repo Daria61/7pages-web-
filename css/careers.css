@@ -1,4 +1,6 @@
-
+.nav--careers--color{
+    color: #F58A07;
+}
 .head-sec{
     display: flex;
     margin-top: 80px;
@@ -51,6 +53,9 @@
 }
 .blog-item img{
     border-radius:20px 20px 0 0 ;
+    object-fit: cover;
+        width: 400px;
+        height: 230px;
 }
 .blog-item-text{
     margin:  0 32px 32px;

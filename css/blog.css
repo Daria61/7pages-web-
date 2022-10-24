@@ -1,3 +1,6 @@
+.nav--color--blog{
+    color: #F58A07;
+}
 .blog-head-cont{
     display: flex;
     justify-content: space-between;
@@ -79,6 +82,9 @@ color: #5b5b5b;
 
 .blog-item img {
     border-radius: 20px 20px 0 0;
+    object-fit: cover;
+    width: 400px;
+    height: 230px;
 }
 
 .blog-item-text {

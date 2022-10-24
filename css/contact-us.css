@@ -1,3 +1,7 @@
+.nav--color--contact {
+    color: #F58A07;
+}
+
 .contact-container{
     display: flex;
     margin-top: 120px;
@@ -11,6 +15,7 @@
     margin-right: 55px;
     width: 600px;
 }
+
 .touch-with-us h1{
     font-size: 48px;
     line-height: 64px;

@@ -1,4 +1,6 @@
-
+.nav--home--color{
+    color: #F58A07;
+}
 .header-section{
     background-color: #DCEAF5;
     position: relative;
@@ -90,6 +92,11 @@ h1{
     justify-content: space-between;
     font-weight: 500;
     padding-bottom: 100px;
+}
+.inform--img img{
+    object-fit: cover;
+    width: 400px;
+    height: 230px;
 }
 .detail_info img{
     border-radius: 20px;
@@ -399,9 +406,12 @@ h1{
     width: 400px;
 
 }
+
 .blog-item img{
     border-radius:20px 20px 0 0 ;
     object-fit: cover;
+    width: 400px;
+    height: 230px;
 }
 .blog-item-text{
     margin:  0 32px 32px;

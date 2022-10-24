@@ -1,4 +1,6 @@
-
+.nav--color--services{
+    color: #F58A07;
+}
 .head-sec{
     display: flex;
     margin-top: 80px;
@@ -20,7 +22,7 @@
     color: #5b5b5b;
     margin-bottom: 32px;
 }
-
+/* feature section ni shuu*/
 .feature-sec{
     height: 3262px;
     margin-bottom: 160px;
@@ -81,7 +83,7 @@
     line-height: 28px;
     color: #5B5B5B;
 }
-
+/*video section shuu*/
 .video-section{
     margin-bottom:128px ;
 }
@@ -132,7 +134,7 @@
     left:40px;
     bottom: 40px;
 }
-
+/* latest section*/
 .latest-section{
     background-color: #DCEAF5;
     padding-top: 90px;
@@ -156,6 +158,9 @@
 }
 .blog-item img{
     border-radius:20px 20px 0 0 ;
+    object-fit: cover;
+    width: 400px;
+    height: 230px;
 }
 .blog-item-text{
     margin:  0 32px 32px;

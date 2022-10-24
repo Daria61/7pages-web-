@@ -25,9 +25,7 @@ a{
     margin:0 auto ;
 }
 
-
-
-
+/* header*/
 header {
     max-width: 1280px;
     margin: 30px auto;
@@ -87,11 +85,7 @@ nav ul li {
     filter: grayscale(0);
 }
 
-
-
-
-
-
+/*footer */
 footer {
     background-color: #063255;
     height: 463px;
@@ -119,6 +113,9 @@ footer {
 .footer-logo i {
     margin: 10px;
 }
+.footer-logo a:hover{
+    color: #F58A07;
+}
 
 .connect-company {
     display: flex;
@@ -134,6 +131,9 @@ footer {
     margin-top: 0;
     font-size: 18px;
     line-height: 27px;
+}
+.connect ul li:hover{
+    text-decoration:underline;
 }
 
 .company ul li,
